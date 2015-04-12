@@ -1,0 +1,11 @@
+
+CREATE DATABASE IF NOT EXISTS labschema;
+
+CREATE TABLE IF NOT EXISTS `labschema`.`user` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(250) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+ENGINE = InnoDB;
+
+INSERT INTO `user`(`username`) VALUES ("Jeff Weiner”);

@@ -1,0 +1,58 @@
+/**
+ * Stylesheet for minimalist MVC - PHP example.
+ * @author: Hamzeen. H.
+ * @date 2015/04/11
+ */
+body{margin:0;padding:0;
+    font-family: 'open-sans-condensed', Helvetica, sans-serif;
+    font-size: 1.28em;font-weight: 100;
+    line-height: 160%;
+    text-rendering: optimizeLegibility;
+    /*background:url(bg_texture.png) rgba(227,108,54,.89);*/
+    background:url(bg_texture.png) rgba(232,154,56,.9);
+    color: #effff6;
+    letter-spacing: .016em;
+}
+h1,h2{
+    font-family: 'open-sans-condensed','Titillium Web';
+    line-height: 160%;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+#wrap{
+    width:80%;height:auto;
+    margin: 10px auto;
+    clear: both;
+}
+
+#row {
+    width: 100%;
+    height:auto;
+    float: left;/*border:.4em solid #553377;*/
+    margin: 1px auto;
+    clear:both;
+}
+#cell {
+    width: 42%;float:left;
+    margin-left: 2%;padding:1%;
+}
+.right{text-align: right;}
+.left{text-align: left;}
+.centre{text-align: center;}
+.Odd{
+    background: rgba(140,100,55,.70);
+    box-shadow: 0.09em 0.09em .9em #441100;
+    border-radius: 3px;
+}
+
+.Even{
+    background: rgba(80,100,110,.40);
+    box-shadow: 0.09em 0.09em .9em #441100;
+    border-radius: 3px;
+}
+
+span#leftStripe{
+    float:left;box-shadow: 0.03em 0.03em .4em #441100;
+    height: 34px;width: 3px;margin-right:2%;background:#2E6374;
+}

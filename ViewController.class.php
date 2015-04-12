@@ -19,7 +19,7 @@ class ViewController {
     }
 
     function validate() {
-        $this->info = "<h2>Sorry, This is a bad request</h2>";
+        $this->info = "Sorry, This is a bad request.”;
         $isValid= false;$render = false;
 
         // check whether it's a valid request.
